@@ -96,11 +96,16 @@
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <Compile Include="Kontaktid.xaml.cs">
       <DependentUpon>Kontaktid.xaml</DependentUpon>
     </Compile>
     <Compile Include="Kontaktidealamlehed\ArvutiJaTeenindus.xaml.cs">
       <DependentUpon>ArvutiJaTeenindus.xaml</DependentUpon>
+=======
+    <Compile Include="bussiajad.xaml.cs">
+      <DependentUpon>bussiajad.xaml</DependentUpon>
+>>>>>>> cea5ba4503726bd8409336c8ba55203c669feb3f
 =======
     <Compile Include="bussiajad.xaml.cs">
       <DependentUpon>bussiajad.xaml</DependentUpon>
@@ -133,11 +138,15 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <Page Include="Kontaktid.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Kontaktidealamlehed\ArvutiJaTeenindus.xaml">
+=======
+    <Page Include="bussiajad.xaml">
+>>>>>>> cea5ba4503726bd8409336c8ba55203c669feb3f
 =======
     <Page Include="bussiajad.xaml">
 >>>>>>> cea5ba4503726bd8409336c8ba55203c669feb3f
