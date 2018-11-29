@@ -11,138 +11,118 @@
     <Grid Background="AliceBlue">
         <Grid.ColumnDefinitions>
             <ColumnDefinition></ColumnDefinition>
-            <ColumnDefinition></ColumnDefinition>
-            <ColumnDefinition></ColumnDefinition>
+           <!-- <ColumnDefinition></ColumnDefinition>-->
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition></RowDefinition>
             <RowDefinition Height="7*" ></RowDefinition>
         </Grid.RowDefinitions>
-        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Name="stack1">
+        <!--<StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Name="stack1">
             <TextBlock Text="Tänased bussiajad" FontSize="26"></TextBlock>
-        </StackPanel>
-        <StackPanel Name="stack2" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="1" >
-            <TextBlock Text="Hommsed bussiajad" FontSize="26"></TextBlock>
-        </StackPanel>
+        </StackPanel>-->
         <StackPanel Name="stack3" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="2" >
-            
-            <TextBlock Text="Vali kuupäev" FontSize="26"></TextBlock>
-            <CalendarDatePicker></CalendarDatePicker>
-        </StackPanel>
-        <StackPanel Grid.Row="1" Margin="30">
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-        </StackPanel>
-        <StackPanel Grid.Row="1" Grid.Column="1" Margin="30">
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-        </StackPanel>
-        <StackPanel Grid.Row="1" Grid.Column="2" Margin="30">
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
-            <ListViewItem></ListViewItem>
+
+
+            <CalendarDatePicker PlaceholderText="Valige Kuupäev" HorizontalAlignment="Left" Margin="0,0,0,0" VerticalAlignment="Center" Width="210" Height="32"></CalendarDatePicker>
         </StackPanel>
 
+        <ScrollViewer Grid.Row="1" BorderThickness="0,2,0,0" BorderBrush="Black" Padding="25" VerticalAlignment="Center">
+            <StackPanel HorizontalAlignment="Center">
+                <ListViewItem >
+                    <TextBlock  Text="üks buss          13:23"/>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock  Text="kaks buss          17:23"/>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock  Text="kolm buss          14:23"/>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock  Text="Tallinn - Tartu 14:00 - 16:30"/>
+                
+                </ListViewItem>
+                <ListViewItem></ListViewItem>
+                <ListViewItem></ListViewItem>
+                <ListViewItem></ListViewItem>
+                <ListViewItem></ListViewItem>
+                <ListViewItem></ListViewItem>
+                <ListViewItem></ListViewItem>
+                <ListViewItem></ListViewItem>
+                <ListViewItem></ListViewItem>
+                <ListViewItem></ListViewItem>
+                <ListViewItem></ListViewItem>
+                <ListViewItem></ListViewItem>
+                <ListViewItem></ListViewItem>
+                <ListViewItem></ListViewItem>
+                <ListViewItem></ListViewItem>
+                <ListViewItem></ListViewItem>
+                <ListViewItem></ListViewItem>
+                <ListViewItem></ListViewItem>
+                <ListViewItem></ListViewItem>
+                <ListViewItem></ListViewItem>
+                <ListViewItem></ListViewItem>
+                <ListViewItem></ListViewItem>
+                <ListViewItem></ListViewItem>
+                <ListViewItem></ListViewItem>
+                <ListViewItem></ListViewItem>
+                <ListViewItem></ListViewItem>
+                <ListViewItem></ListViewItem>
+                <ListViewItem></ListViewItem>
+                <ListViewItem></ListViewItem>
+                <ListViewItem></ListViewItem>
+                <ListViewItem></ListViewItem>
+            <ListViewItem></ListViewItem>
+                </StackPanel>
+            </ScrollViewer>
+        <!--
+        <ScrollViewer Name="2scroll" Grid.Row="1" Grid.Column="2"  BorderThickness="0,2,0,0" BorderBrush="Black" Padding="25">
+            <StackPanel>
+                <ListViewItem>
+                    <TextBlock/>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock/>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock/>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock/>
+
+                </ListViewItem>
+                <ListViewItem>s</ListViewItem>
+                <ListViewItem>s</ListViewItem>
+                <ListViewItem>s</ListViewItem>
+                <ListViewItem>s</ListViewItem>
+                <ListViewItem>s</ListViewItem>
+                <ListViewItem>s</ListViewItem>
+                <ListViewItem>ss</ListViewItem>
+                <ListViewItem>s</ListViewItem>
+                <ListViewItem>s</ListViewItem>
+                <ListViewItem>s</ListViewItem>
+                <ListViewItem>s</ListViewItem>
+                <ListViewItem>s</ListViewItem>
+                <ListViewItem>s</ListViewItem>
+                <ListViewItem>s</ListViewItem>
+                <ListViewItem>s</ListViewItem>
+                <ListViewItem>s</ListViewItem>
+                <ListViewItem>s</ListViewItem>
+                <ListViewItem>s</ListViewItem>
+                <ListViewItem>s</ListViewItem>
+                <ListViewItem>s</ListViewItem>
+                <ListViewItem>s</ListViewItem>
+                <ListViewItem></ListViewItem>
+                <ListViewItem></ListViewItem>
+                <ListViewItem></ListViewItem>
+                <ListViewItem></ListViewItem>
+                <ListViewItem></ListViewItem>
+                <ListViewItem></ListViewItem>
+                <ListViewItem></ListViewItem>
+                <ListViewItem></ListViewItem>
+                <ListViewItem></ListViewItem>
+                <ListViewItem></ListViewItem>
+            </StackPanel>
+        </ScrollViewer>
+-->
     </Grid>
 </Page>
