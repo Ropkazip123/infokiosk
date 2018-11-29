@@ -13,29 +13,18 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
-// The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
+// The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=234238
 
 namespace infokiosk
 {
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-    public sealed partial class MainPage : Page
+    public sealed partial class Kontaktid : Page
     {
-        public MainPage()
+        public Kontaktid()
         {
             this.InitializeComponent();
         }
-
-        private void menu_click(object sender, RoutedEventArgs e)
-        {
-            splitview1.IsPaneOpen = !splitview1.IsPaneOpen;
-        }
-
-        private void ListView_ItemClick(object sender, ItemClickEventArgs e)
-        {
-            this.Frame.Navigate(typeof(bussiajad));
-        }
-
     }
 }

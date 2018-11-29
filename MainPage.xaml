@@ -9,6 +9,80 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="45"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
 
+        <RelativePanel Grid.ColumnSpan="2" Background="Orange" Grid.Row="0">
+            <Button Background="DarkOrange" Height="30" Name="backButton">
+                <SymbolIcon Width="22.5" Height="14" Symbol="Back"/>
+            </Button>
+
+            <TextBlock FontSize="15" Name="appBlock" RelativePanel.RightOf="backButton" Text="Sample App" RelativePanel.AlignVerticalCenterWith="backButton" Margin="10,0,0,0"/>
+        </RelativePanel>
+
+        <RelativePanel Grid.ColumnSpan="2" Background="LightGray" Grid.Row="1">
+            <Button Background="Orange" Height="40" Name="hamburgerButton" Click="menu_click">
+                <SymbolIcon Width="22.5" Height="25" Symbol="GlobalNavigationButton"/>
+            </Button>
+            <TextBlock FontSize="20" Name="titleBlock" RelativePanel.RightOf="hamburgerButton" Text="Sample title" RelativePanel.AlignVerticalCenterWith="hamburgerButton" Margin="10,0,0,0"/>
+        </RelativePanel>
+
+        <SplitView Grid.ColumnSpan="2" Name="splitview1" Grid.Row="2" IsPaneOpen="False" DisplayMode="CompactInline" CompactPaneLength="43.25" OpenPaneLength="250">
+            <SplitView.Pane>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <ListView ItemClick="ListView_ItemClick" SelectionMode="None" IsItemClickEnabled="True">
+                        <ListViewItem>
+                            <StackPanel Orientation="Horizontal">
+                                <SymbolIcon Symbol="Accept"/>
+                                <TextBlock Margin="21,0,0,0">Tunniplaan</TextBlock>
+                            </StackPanel>
+                        </ListViewItem>
+
+                        <ListViewItem>
+                            <StackPanel Orientation="Horizontal">
+                                <SymbolIcon Symbol="Accept"/>
+                                <TextBlock Margin="21,0,0,0">Bussiajad</TextBlock>
+                            </StackPanel>
+                        </ListViewItem>
+
+                        <ListViewItem>
+                            <StackPanel Orientation="Horizontal">
+                                <SymbolIcon Symbol="Delete"/>
+                                <TextBlock Margin="21,0,0,0"></TextBlock>
+                            </StackPanel>
+                        </ListViewItem>
+
+                        <ListViewItem>
+                            <StackPanel Orientation="Horizontal">
+                                <SymbolIcon Symbol="Accept"/>
+                                <TextBlock Margin="21,0,0,0">Kontaktid</TextBlock>
+                            </StackPanel>
+                        </ListViewItem>
+                    </ListView>
+                    <StackPanel Grid.Row="2">
+                        <ListView  SelectionMode="None" IsItemClickEnabled="True">
+                            <ListViewItem>
+                                <StackPanel Orientation="Horizontal">
+                                    <SymbolIcon Symbol="Setting"/>
+                                    <TextBlock Margin="21,0,0,0">Settings</TextBlock>
+                                </StackPanel>
+                            </ListViewItem>
+                        </ListView>
+                    </StackPanel>
+                </Grid>
+            </SplitView.Pane>
+        </SplitView>
     </Grid>
 </Page>
