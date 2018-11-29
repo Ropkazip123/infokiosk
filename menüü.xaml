@@ -1,5 +1,5 @@
 ﻿<Page
-    x:Class="info.menüü"
+    x:Class="infokiosk.menüü"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:info"
@@ -10,34 +10,36 @@
 
     <Grid Background="AliceBlue">
         <Grid.RowDefinitions>
-            <RowDefinition Height="2*"></RowDefinition>
-            <RowDefinition Height="7*"></RowDefinition>
+            <RowDefinition Height="0.3*"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="1*"></RowDefinition>
         </Grid.RowDefinitions>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition></ColumnDefinition>
-            <ColumnDefinition></ColumnDefinition>
-            <ColumnDefinition></ColumnDefinition>
-            <ColumnDefinition></ColumnDefinition>
-            <ColumnDefinition></ColumnDefinition>
-        </Grid.ColumnDefinitions>
 
-        <TextBlock Grid.Column="1" VerticalAlignment="Top" HorizontalAlignment="Center" FontSize="60" Grid.ColumnSpan="3" Margin="0,40,0,0">ÕPILASTE SÖÖK</TextBlock>
-        
-        <TextBlock Grid.Column="0" Grid.Row="0" HorizontalAlignment="Center" FontSize="28" VerticalAlignment="Top" Margin="0,160,0,0">Esmaspäev</TextBlock>
-        <TextBlock Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" FontSize="28" VerticalAlignment="Top" Margin="0,160,0,0">Teisipäev</TextBlock>
-        <TextBlock Grid.Column="2" Grid.Row="0" HorizontalAlignment="Center" FontSize="28" VerticalAlignment="Top" Margin="0,160,0,0">Kolmapäev</TextBlock>
-        <TextBlock Grid.Column="3" Grid.Row="0" HorizontalAlignment="Center" FontSize="28" VerticalAlignment="Top" Margin="0,160,0,0">Neljapäev</TextBlock>
-        <TextBlock Grid.Column="4" Grid.Row="0" HorizontalAlignment="Center" FontSize="28" VerticalAlignment="Top" Margin="0,160,0,0">Reede</TextBlock>
+        <TextBlock Text="LÕUNASÖÖGID" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="50" Grid.Row="0"></TextBlock>
 
-        <TextBlock Grid.Column="0" Grid.Row="1" HorizontalAlignment="Center" FontSize="28" Margin="0,30,0,0">Toit1</TextBlock>
-        <TextBlock Grid.Column="1" Grid.Row="1" HorizontalAlignment="Center" FontSize="28" Margin="0,30,0,0">Toit2</TextBlock>
-        <TextBlock Grid.Column="2" Grid.Row="1" HorizontalAlignment="Center" FontSize="28" Margin="0,30,0,0">Toit3</TextBlock>
-        <TextBlock Grid.Column="3" Grid.Row="1" HorizontalAlignment="Center" FontSize="28" Margin="0,30,0,0">Toit4</TextBlock>
-        <TextBlock Grid.Column="4" Grid.Row="1" HorizontalAlignment="Center" FontSize="28" Margin="0,30,0,0">Toit5</TextBlock>
-        <StackPanel Grid.Row="1" Grid.ColumnSpan="1" BorderBrush="Black" BorderThickness="5"></StackPanel>
-        <StackPanel Grid.Row="1" Grid.ColumnSpan="2" BorderBrush="Black" BorderThickness="5"></StackPanel>
-        <StackPanel Grid.Row="1" Grid.ColumnSpan="3" BorderBrush="Black" BorderThickness="5"></StackPanel>
-        <StackPanel Grid.Row="1" Grid.ColumnSpan="4" BorderBrush="Black" BorderThickness="5"></StackPanel>
-        <StackPanel Grid.Row="1" Grid.ColumnSpan="5" BorderBrush="Black" BorderThickness="5"></StackPanel>
+        <ScrollViewer Grid.Row="1" HorizontalScrollMode="Enabled">
+            <RelativePanel>
+                <TextBlock Name="esimene" Text="Esmaspäev" Margin="73,0,73,0" FontSize="35"></TextBlock>
+                <TextBlock Name="teine" Text="Teisipäev" RelativePanel.RightOf="esimene" Margin="73,0,73,0" FontSize="35"></TextBlock>
+                <TextBlock Name="kolmas" Text="Kolmapäev" RelativePanel.RightOf="teine" Margin="73,0,73,0" FontSize="35"></TextBlock>
+                <TextBlock Name="neljas" Text="Neljapäev" RelativePanel.RightOf="kolmas" Margin="73,0,73,0" FontSize="35"></TextBlock>
+                <TextBlock Name="viies" Text="Reede" RelativePanel.RightOf="neljas" Margin="73,0,73,0" FontSize="35"></TextBlock>
+            </RelativePanel>
+        </ScrollViewer>
+
+        <Grid Grid.Row="2">
+            <RelativePanel>
+                <TextBlock Name="toit1" Text="Toit" Margin="120,0,120,0" FontSize="35"></TextBlock>
+                <TextBlock Name="toit2" Text="Toit" RelativePanel.RightOf="toit1" Margin="120,0,120,0" FontSize="35"></TextBlock>
+                <TextBlock Name="toit3" Text="Toit" RelativePanel.RightOf="toit2" Margin="120,0,120,0" FontSize="35"></TextBlock>
+                <TextBlock Name="toit4" Text="Toit" RelativePanel.RightOf="toit3" Margin="120,0,120,0" FontSize="35"></TextBlock>
+                <TextBlock Name="toit5" Text="Toit" RelativePanel.RightOf="toit4" Margin="120,0,120,0" FontSize="35"></TextBlock>
+            </RelativePanel>
+        </Grid>
+
+        <Grid Grid.Row="3">
+            
+        </Grid>
     </Grid>
 </Page>

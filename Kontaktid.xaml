@@ -44,7 +44,7 @@
                 </RelativePanel>
                 <RelativePanel Grid.Column="3">
                     <ListView Name="list4" SelectionMode="None">
-                        <ListViewItem FontSize="35">Telefoni number</ListViewItem>
+                        <ListViewItem FontSize="35">Telefon</ListViewItem>
                     </ListView>
                 </RelativePanel>
             </Grid>

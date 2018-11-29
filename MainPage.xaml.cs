@@ -63,7 +63,7 @@ public sealed partial class MainPage : Page
                     break;
 
                 case "Menüü":
-                    myFrame.Navigate(typeof(MainPage));
+                    myFrame.Navigate(typeof(menüü));
                     splitview1.IsPaneOpen = false;
                     break;
 
@@ -73,7 +73,7 @@ public sealed partial class MainPage : Page
                     break;
 
                 case "Konsultatsioonid":
-                    myFrame.Navigate(typeof(MainPage));
+                    myFrame.Navigate(typeof(BlankPage1));
                     splitview1.IsPaneOpen = false;
                     break;
 
