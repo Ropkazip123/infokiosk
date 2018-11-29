@@ -49,6 +49,7 @@
 
                         <ListViewItem>
                             <StackPanel Orientation="Horizontal">
+                                <Button Click="Button_Click_1"></Button>
                                 <SymbolIcon Symbol="Accept"/>
                                 <TextBlock Margin="21,0,0,0">Bussiajad</TextBlock>
                             </StackPanel>
