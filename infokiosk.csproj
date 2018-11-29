@@ -95,21 +95,12 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Kontaktid.xaml.cs">
-      <DependentUpon>Kontaktid.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Kontaktidealamlehed\ArvutiJaTeenindus.xaml.cs">
-      <DependentUpon>ArvutiJaTeenindus.xaml</DependentUpon>
-    <Compile Include="bussiajad.xaml.cs">
-      <DependentUpon>bussiajad.xaml</DependentUpon>
-    </Compile>
+    
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="tunniplaan.xaml.cs">
-      <DependentUpon>tunniplaan.xaml</DependentUpon>
-    </Compile>
+    
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
@@ -132,23 +123,14 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="Kontaktid.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Kontaktidealamlehed\ArvutiJaTeenindus.xaml">
-    <Page Include="bussiajad.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
+    
+    
+    
     <Page Include="MainPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="tunniplaan.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
+    
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
