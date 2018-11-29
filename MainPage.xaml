@@ -14,8 +14,12 @@
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="45"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
 
-        <RelativePanel Background="Orange" Grid.Row="0">
+        <RelativePanel Grid.ColumnSpan="2" Background="Orange" Grid.Row="0">
             <Button Background="DarkOrange" Height="30" Name="backButton">
                 <SymbolIcon Width="22.5" Height="14" Symbol="Back"/>
             </Button>
@@ -23,25 +27,28 @@
             <TextBlock FontSize="15" Name="appBlock" RelativePanel.RightOf="backButton" Text="Sample App" RelativePanel.AlignVerticalCenterWith="backButton" Margin="10,0,0,0"/>
         </RelativePanel>
 
-        <RelativePanel Background="LightGray" Grid.Row="1">
+        <RelativePanel Grid.ColumnSpan="2" Background="LightGray" Grid.Row="1">
             <Button Background="Orange" Height="40" Name="hamburgerButton" Click="menu_click">
-                <SymbolIcon Width="22.5" Height="25" Symbol="GlobalNavigationButton"/>
+                <SymbolIcon Width="22.5" Height="25" Symbol="GlobalNavigationButton" />
             </Button>
             <TextBlock FontSize="20" Name="titleBlock" RelativePanel.RightOf="hamburgerButton" Text="Sample title" RelativePanel.AlignVerticalCenterWith="hamburgerButton" Margin="10,0,0,0"/>
         </RelativePanel>
 
-        <SplitView Name="splitview1" Grid.Row="2" IsPaneOpen="False" DisplayMode="CompactInline" CompactPaneLength="43.25" OpenPaneLength="250">
+        <SplitView Grid.ColumnSpan="2" Name="splitview1" Grid.Row="2" IsPaneOpen="False" DisplayMode="CompactInline" CompactPaneLength="43.25" OpenPaneLength="250">
             <SplitView.Pane>
                 <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="7*"/>
+                        <ColumnDefinition Width="118*"/>
+                    </Grid.ColumnDefinitions>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="Auto"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="Auto"/>
                     </Grid.RowDefinitions>
-                    <ListView ItemClick="ListView_ItemClick" SelectionMode="None" IsItemClickEnabled="True">
+                    <ListView ItemClick="ListView_ItemClick" SelectionMode="None" IsItemClickEnabled="True" Grid.ColumnSpan="2" HorizontalAlignment="Stretch" Margin="0,0,0,0" VerticalAlignment="Stretch">
                         <ListViewItem>
                             <StackPanel Orientation="Horizontal">
-                                <Button Click="Button_Click"></Button>
                                 <SymbolIcon Symbol="Accept"/>
                                 <TextBlock Margin="21,0,0,0">Tunniplaan</TextBlock>
                             </StackPanel>
@@ -49,7 +56,6 @@
 
                         <ListViewItem>
                             <StackPanel Orientation="Horizontal">
-                                <Button Click="Button_Click_1"></Button>
                                 <SymbolIcon Symbol="Accept"/>
                                 <TextBlock Margin="21,0,0,0">Bussiajad</TextBlock>
                             </StackPanel>
@@ -69,7 +75,7 @@
                             </StackPanel>
                         </ListViewItem>
                     </ListView>
-                    <StackPanel Grid.Row="2">
+                    <StackPanel Grid.Row="2" Grid.ColumnSpan="2" HorizontalAlignment="Stretch" Margin="0,0,0,0" VerticalAlignment="Stretch">
                         <ListView  SelectionMode="None" IsItemClickEnabled="True">
                             <ListViewItem>
                                 <StackPanel Orientation="Horizontal">
