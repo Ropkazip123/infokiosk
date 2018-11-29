@@ -8,14 +8,14 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
+    <Grid Background="AliceBlue">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"></RowDefinition>
             <RowDefinition Height="40"></RowDefinition>
             <RowDefinition Height="*"></RowDefinition>
         </Grid.RowDefinitions>
 
-        <TextBlock Text="Kontaktid" FontSize="50"></TextBlock>
+        <TextBlock Text="Kontaktid" FontSize="50" HorizontalAlignment="Center"></TextBlock>
 
         <ScrollViewer Grid.Row="2">
         
