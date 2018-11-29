@@ -34,11 +34,6 @@ namespace infokiosk
 
         private void ListView_ItemClick(object sender, ItemClickEventArgs e)
         {
-
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
             this.Frame.Navigate(typeof(bussiajad));
         }
 
