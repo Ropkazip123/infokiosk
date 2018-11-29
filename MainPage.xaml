@@ -29,7 +29,7 @@
 
         <RelativePanel Grid.ColumnSpan="2" Background="LightGray" Grid.Row="1">
             <Button Background="Orange" Height="40" Name="hamburgerButton" Click="menu_click">
-                <SymbolIcon Width="22.5" Height="25" Symbol="GlobalNavigationButton"/>
+                <SymbolIcon Width="22.5" Height="25" Symbol="GlobalNavigationButton" />
             </Button>
             <TextBlock FontSize="20" Name="titleBlock" RelativePanel.RightOf="hamburgerButton" Text="Sample title" RelativePanel.AlignVerticalCenterWith="hamburgerButton" Margin="10,0,0,0"/>
         </RelativePanel>
@@ -37,12 +37,16 @@
         <SplitView Grid.ColumnSpan="2" Name="splitview1" Grid.Row="2" IsPaneOpen="False" DisplayMode="CompactInline" CompactPaneLength="43.25" OpenPaneLength="250">
             <SplitView.Pane>
                 <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="7*"/>
+                        <ColumnDefinition Width="118*"/>
+                    </Grid.ColumnDefinitions>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="Auto"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="Auto"/>
                     </Grid.RowDefinitions>
-                    <ListView ItemClick="ListView_ItemClick" SelectionMode="None" IsItemClickEnabled="True">
+                    <ListView ItemClick="ListView_ItemClick" SelectionMode="None" IsItemClickEnabled="True" Grid.ColumnSpan="2" HorizontalAlignment="Stretch" Margin="0,0,0,0" VerticalAlignment="Stretch">
                         <ListViewItem>
                             <StackPanel Orientation="Horizontal">
                                 <SymbolIcon Symbol="Accept"/>
@@ -71,7 +75,7 @@
                             </StackPanel>
                         </ListViewItem>
                     </ListView>
-                    <StackPanel Grid.Row="2">
+                    <StackPanel Grid.Row="2" Grid.ColumnSpan="2" HorizontalAlignment="Stretch" Margin="0,0,0,0" VerticalAlignment="Stretch">
                         <ListView  SelectionMode="None" IsItemClickEnabled="True">
                             <ListViewItem>
                                 <StackPanel Orientation="Horizontal">
