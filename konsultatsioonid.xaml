@@ -1,0 +1,336 @@
+﻿<Page
+    x:Class="info.BlankPage1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:info"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0" FontSize="50" HorizontalAlignment="Center">Konsultatsioonid</TextBlock>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <TextBlock Grid.Column="0" FontSize="25" HorizontalAlignment="Center">Esmaspäev</TextBlock>
+            <TextBlock Grid.Column="1" FontSize="25" HorizontalAlignment="Center">Teisipäev</TextBlock>
+            <TextBlock Grid.Column="2" FontSize="25" HorizontalAlignment="Center">Kolmapäev</TextBlock>
+            <TextBlock Grid.Column="3" FontSize="25" HorizontalAlignment="Center">Neljapäev</TextBlock>
+            <TextBlock Grid.Column="4" FontSize="25" HorizontalAlignment="Center">Reede</TextBlock>
+        </Grid>
+
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <ScrollViewer>
+                <StackPanel>
+                    <ListViewItem>
+                        <TextBlock FontSize="20" TextWrapping="WrapWholeWords">1. Konsultatsiooni andja, kellaaeg, ruum</TextBlock>
+                    </ListViewItem>
+                    <ListViewItem>
+                        <TextBlock FontSize="20" TextWrapping="WrapWholeWords">2. Konsultatsiooni andja, kellaaeg, ruum</TextBlock>
+                    </ListViewItem>
+                    <ListViewItem>
+                        <TextBlock FontSize="20" TextWrapping="WrapWholeWords">1. Konsultatsiooni andja, kellaaeg, ruum</TextBlock>
+                    </ListViewItem>
+                    <ListViewItem>
+                        <TextBlock FontSize="20" TextWrapping="WrapWholeWords">1. Konsultatsiooni andja, kellaaeg, ruum</TextBlock>
+                    </ListViewItem>
+                    <ListViewItem>
+                        <TextBlock FontSize="20" TextWrapping="WrapWholeWords">1. Konsultatsiooni andja, kellaaeg, ruum</TextBlock>
+                    </ListViewItem>
+                    <ListViewItem>
+                        <TextBlock FontSize="20" TextWrapping="WrapWholeWords">1. Konsultatsiooni andja, kellaaeg, ruum</TextBlock>
+                    </ListViewItem>
+                    <ListViewItem>
+                        <TextBlock FontSize="20" TextWrapping="WrapWholeWords">1. Konsultatsiooni andja, kellaaeg, ruum</TextBlock>
+                    </ListViewItem>
+                    <ListViewItem>
+                        <TextBlock FontSize="20" TextWrapping="WrapWholeWords">1. Konsultatsiooni andja, kellaaeg, ruum</TextBlock>
+                    </ListViewItem>
+                    <ListViewItem>
+                        <TextBlock FontSize="20" TextWrapping="WrapWholeWords">1. Konsultatsiooni andja, kellaaeg, ruum</TextBlock>
+                    </ListViewItem>
+                    <ListViewItem>
+                        <TextBlock FontSize="20" TextWrapping="WrapWholeWords">1. Konsultatsiooni andja, kellaaeg, ruum</TextBlock>
+                    </ListViewItem>
+                    <ListViewItem>
+                        <TextBlock FontSize="20" TextWrapping="WrapWholeWords">1. Konsultatsiooni andja, kellaaeg, ruum</TextBlock>
+                    </ListViewItem>
+                    <ListViewItem>
+                        <TextBlock FontSize="20" TextWrapping="WrapWholeWords">1. Konsultatsiooni andja, kellaaeg, ruum</TextBlock>
+                    </ListViewItem>
+                    <ListViewItem>
+                        <TextBlock FontSize="20" TextWrapping="WrapWholeWords">1. Konsultatsiooni andja, kellaaeg, ruum</TextBlock>
+                    </ListViewItem>
+                    <ListViewItem>
+                        <TextBlock FontSize="20" TextWrapping="WrapWholeWords">1. Konsultatsiooni andja, kellaaeg, ruum</TextBlock>
+                    </ListViewItem>
+                    <ListViewItem>
+                        <TextBlock FontSize="20" TextWrapping="WrapWholeWords">1. Konsultatsiooni andja, kellaaeg, ruum</TextBlock>
+                    </ListViewItem>
+                    <ListViewItem>
+                        <TextBlock FontSize="20" TextWrapping="WrapWholeWords">1. Konsultatsiooni andja, kellaaeg, ruum</TextBlock>
+                    </ListViewItem>
+                    <ListViewItem>
+                        <TextBlock FontSize="20" TextWrapping="WrapWholeWords">1. Konsultatsiooni andja, kellaaeg, ruum</TextBlock>
+                    </ListViewItem>
+                    <ListViewItem>
+                        <TextBlock FontSize="20" TextWrapping="WrapWholeWords">1. Konsultatsiooni andja, kellaaeg, ruum</TextBlock>
+                    </ListViewItem>
+                </StackPanel>
+            </ScrollViewer>
+            <ScrollViewer Grid.Column="1">
+                <StackPanel>
+                    <ListViewItem>
+                        <TextBlock FontSize="20" TextWrapping="WrapWholeWords">1. Konsultatsiooni andja, kellaaeg, ruum</TextBlock>
+                    </ListViewItem>
+                    <ListViewItem>
+                        <TextBlock FontSize="20" TextWrapping="WrapWholeWords">2. Konsultatsiooni andja, kellaaeg, ruum</TextBlock>
+                    </ListViewItem>
+                    <ListViewItem>
+                        <TextBlock FontSize="20" TextWrapping="WrapWholeWords">1. Konsultatsiooni andja, kellaaeg, ruum</TextBlock>
+                    </ListViewItem>
+                    <ListViewItem>
+                        <TextBlock FontSize="20" TextWrapping="WrapWholeWords">1. Konsultatsiooni andja, kellaaeg, ruum</TextBlock>
+                    </ListViewItem>
+                    <ListViewItem>
+                        <TextBlock FontSize="20" TextWrapping="WrapWholeWords">1. Konsultatsiooni andja, kellaaeg, ruum</TextBlock>
+                    </ListViewItem>
+                    <ListViewItem>
+                        <TextBlock FontSize="20" TextWrapping="WrapWholeWords">1. Konsultatsiooni andja, kellaaeg, ruum</TextBlock>
+                    </ListViewItem>
+                    <ListViewItem>
+                        <TextBlock FontSize="20" TextWrapping="WrapWholeWords">1. Konsultatsiooni andja, kellaaeg, ruum</TextBlock>
+                    </ListViewItem>
+                    <ListViewItem>
+                        <TextBlock FontSize="20" TextWrapping="WrapWholeWords">1. Konsultatsiooni andja, kellaaeg, ruum</TextBlock>
+                    </ListViewItem>
+                    <ListViewItem>
+                        <TextBlock FontSize="20" TextWrapping="WrapWholeWords">1. Konsultatsiooni andja, kellaaeg, ruum</TextBlock>
+                    </ListViewItem>
+                    <ListViewItem>
+                        <TextBlock FontSize="20" TextWrapping="WrapWholeWords">1. Konsultatsiooni andja, kellaaeg, ruum</TextBlock>
+                    </ListViewItem>
+                    <ListViewItem>
+                        <TextBlock FontSize="20" TextWrapping="WrapWholeWords">1. Konsultatsiooni andja, kellaaeg, ruum</TextBlock>
+                    </ListViewItem>
+                    <ListViewItem>
+                        <TextBlock FontSize="20" TextWrapping="WrapWholeWords">1. Konsultatsiooni andja, kellaaeg, ruum</TextBlock>
+                    </ListViewItem>
+                    <ListViewItem>
+                        <TextBlock FontSize="20" TextWrapping="WrapWholeWords">1. Konsultatsiooni andja, kellaaeg, ruum</TextBlock>
+                    </ListViewItem>
+                    <ListViewItem>
+                        <TextBlock FontSize="20" TextWrapping="WrapWholeWords">1. Konsultatsiooni andja, kellaaeg, ruum</TextBlock>
+                    </ListViewItem>
+                    <ListViewItem>
+                        <TextBlock FontSize="20" TextWrapping="WrapWholeWords">1. Konsultatsiooni andja, kellaaeg, ruum</TextBlock>
+                    </ListViewItem>
+                    <ListViewItem>
+                        <TextBlock FontSize="20" TextWrapping="WrapWholeWords">1. Konsultatsiooni andja, kellaaeg, ruum</TextBlock>
+                    </ListViewItem>
+                    <ListViewItem>
+                        <TextBlock FontSize="20" TextWrapping="WrapWholeWords">1. Konsultatsiooni andja, kellaaeg, ruum</TextBlock>
+                    </ListViewItem>
+                    <ListViewItem>
+                        <TextBlock FontSize="20" TextWrapping="WrapWholeWords">1. Konsultatsiooni andja, kellaaeg, ruum</TextBlock>
+                    </ListViewItem>
+                </StackPanel>
+            </ScrollViewer>
+            <ScrollViewer Grid.Column="2">
+                <StackPanel>
+                    <ListViewItem>
+                        <TextBlock FontSize="20" TextWrapping="WrapWholeWords">1. Konsultatsiooni andja, kellaaeg, ruum</TextBlock>
+                    </ListViewItem>
+                    <ListViewItem>
+                        <TextBlock FontSize="20" TextWrapping="WrapWholeWords">2. Konsultatsiooni andja, kellaaeg, ruum</TextBlock>
+                    </ListViewItem>
+                    <ListViewItem>
+                        <TextBlock FontSize="20" TextWrapping="WrapWholeWords">1. Konsultatsiooni andja, kellaaeg, ruum</TextBlock>
+                    </ListViewItem>
+                    <ListViewItem>
+                        <TextBlock FontSize="20" TextWrapping="WrapWholeWords">1. Konsultatsiooni andja, kellaaeg, ruum</TextBlock>
+                    </ListViewItem>
+                    <ListViewItem>
+                        <TextBlock FontSize="20" TextWrapping="WrapWholeWords">1. Konsultatsiooni andja, kellaaeg, ruum</TextBlock>
+                    </ListViewItem>
+                    <ListViewItem>
+                        <TextBlock FontSize="20" TextWrapping="WrapWholeWords">1. Konsultatsiooni andja, kellaaeg, ruum</TextBlock>
+                    </ListViewItem>
+                    <ListViewItem>
+                        <TextBlock FontSize="20" TextWrapping="WrapWholeWords">1. Konsultatsiooni andja, kellaaeg, ruum</TextBlock>
+                    </ListViewItem>
+                    <ListViewItem>
+                        <TextBlock FontSize="20" TextWrapping="WrapWholeWords">1. Konsultatsiooni andja, kellaaeg, ruum</TextBlock>
+                    </ListViewItem>
+                    <ListViewItem>
+                        <TextBlock FontSize="20" TextWrapping="WrapWholeWords">1. Konsultatsiooni andja, kellaaeg, ruum</TextBlock>
+                    </ListViewItem>
+                    <ListViewItem>
+                        <TextBlock FontSize="20" TextWrapping="WrapWholeWords">1. Konsultatsiooni andja, kellaaeg, ruum</TextBlock>
+                    </ListViewItem>
+                    <ListViewItem>
+                        <TextBlock FontSize="20" TextWrapping="WrapWholeWords">1. Konsultatsiooni andja, kellaaeg, ruum</TextBlock>
+                    </ListViewItem>
+                    <ListViewItem>
+                        <TextBlock FontSize="20" TextWrapping="WrapWholeWords">1. Konsultatsiooni andja, kellaaeg, ruum</TextBlock>
+                    </ListViewItem>
+                    <ListViewItem>
+                        <TextBlock FontSize="20" TextWrapping="WrapWholeWords">1. Konsultatsiooni andja, kellaaeg, ruum</TextBlock>
+                    </ListViewItem>
+                    <ListViewItem>
+                        <TextBlock FontSize="20" TextWrapping="WrapWholeWords">1. Konsultatsiooni andja, kellaaeg, ruum</TextBlock>
+                    </ListViewItem>
+                    <ListViewItem>
+                        <TextBlock FontSize="20" TextWrapping="WrapWholeWords">1. Konsultatsiooni andja, kellaaeg, ruum</TextBlock>
+                    </ListViewItem>
+                    <ListViewItem>
+                        <TextBlock FontSize="20" TextWrapping="WrapWholeWords">1. Konsultatsiooni andja, kellaaeg, ruum</TextBlock>
+                    </ListViewItem>
+                    <ListViewItem>
+                        <TextBlock FontSize="20" TextWrapping="WrapWholeWords">1. Konsultatsiooni andja, kellaaeg, ruum</TextBlock>
+                    </ListViewItem>
+                    <ListViewItem>
+                        <TextBlock FontSize="20" TextWrapping="WrapWholeWords">1. Konsultatsiooni andja, kellaaeg, ruum</TextBlock>
+                    </ListViewItem>
+                </StackPanel>
+            </ScrollViewer>
+            <ScrollViewer Grid.Column="3">
+                <StackPanel>
+                    <ListViewItem>
+                        <TextBlock FontSize="20" TextWrapping="WrapWholeWords">1. Konsultatsiooni andja, kellaaeg, ruum</TextBlock>
+                    </ListViewItem>
+                    <ListViewItem>
+                        <TextBlock FontSize="20" TextWrapping="WrapWholeWords">2. Konsultatsiooni andja, kellaaeg, ruum</TextBlock>
+                    </ListViewItem>
+                    <ListViewItem>
+                        <TextBlock FontSize="20" TextWrapping="WrapWholeWords">1. Konsultatsiooni andja, kellaaeg, ruum</TextBlock>
+                    </ListViewItem>
+                    <ListViewItem>
+                        <TextBlock FontSize="20" TextWrapping="WrapWholeWords">1. Konsultatsiooni andja, kellaaeg, ruum</TextBlock>
+                    </ListViewItem>
+                    <ListViewItem>
+                        <TextBlock FontSize="20" TextWrapping="WrapWholeWords">1. Konsultatsiooni andja, kellaaeg, ruum</TextBlock>
+                    </ListViewItem>
+                    <ListViewItem>
+                        <TextBlock FontSize="20" TextWrapping="WrapWholeWords">1. Konsultatsiooni andja, kellaaeg, ruum</TextBlock>
+                    </ListViewItem>
+                    <ListViewItem>
+                        <TextBlock FontSize="20" TextWrapping="WrapWholeWords">1. Konsultatsiooni andja, kellaaeg, ruum</TextBlock>
+                    </ListViewItem>
+                    <ListViewItem>
+                        <TextBlock FontSize="20" TextWrapping="WrapWholeWords">1. Konsultatsiooni andja, kellaaeg, ruum</TextBlock>
+                    </ListViewItem>
+                    <ListViewItem>
+                        <TextBlock FontSize="20" TextWrapping="WrapWholeWords">1. Konsultatsiooni andja, kellaaeg, ruum</TextBlock>
+                    </ListViewItem>
+                    <ListViewItem>
+                        <TextBlock FontSize="20" TextWrapping="WrapWholeWords">1. Konsultatsiooni andja, kellaaeg, ruum</TextBlock>
+                    </ListViewItem>
+                    <ListViewItem>
+                        <TextBlock FontSize="20" TextWrapping="WrapWholeWords">1. Konsultatsiooni andja, kellaaeg, ruum</TextBlock>
+                    </ListViewItem>
+                    <ListViewItem>
+                        <TextBlock FontSize="20" TextWrapping="WrapWholeWords">1. Konsultatsiooni andja, kellaaeg, ruum</TextBlock>
+                    </ListViewItem>
+                    <ListViewItem>
+                        <TextBlock FontSize="20" TextWrapping="WrapWholeWords">1. Konsultatsiooni andja, kellaaeg, ruum</TextBlock>
+                    </ListViewItem>
+                    <ListViewItem>
+                        <TextBlock FontSize="20" TextWrapping="WrapWholeWords">1. Konsultatsiooni andja, kellaaeg, ruum</TextBlock>
+                    </ListViewItem>
+                    <ListViewItem>
+                        <TextBlock FontSize="20" TextWrapping="WrapWholeWords">1. Konsultatsiooni andja, kellaaeg, ruum</TextBlock>
+                    </ListViewItem>
+                    <ListViewItem>
+                        <TextBlock FontSize="20" TextWrapping="WrapWholeWords">1. Konsultatsiooni andja, kellaaeg, ruum</TextBlock>
+                    </ListViewItem>
+                    <ListViewItem>
+                        <TextBlock FontSize="20" TextWrapping="WrapWholeWords">1. Konsultatsiooni andja, kellaaeg, ruum</TextBlock>
+                    </ListViewItem>
+                    <ListViewItem>
+                        <TextBlock FontSize="20" TextWrapping="WrapWholeWords">1. Konsultatsiooni andja, kellaaeg, ruum</TextBlock>
+                    </ListViewItem>
+                </StackPanel>
+            </ScrollViewer>
+            <ScrollViewer Grid.Column="4">
+                <StackPanel>
+                    <ListViewItem>
+                        <TextBlock FontSize="20" TextWrapping="WrapWholeWords">1. Konsultatsiooni andja, kellaaeg, ruum</TextBlock>
+                    </ListViewItem>
+                    <ListViewItem>
+                        <TextBlock FontSize="20" TextWrapping="WrapWholeWords">2. Konsultatsiooni andja, kellaaeg, ruum</TextBlock>
+                    </ListViewItem>
+                    <ListViewItem>
+                        <TextBlock FontSize="20" TextWrapping="WrapWholeWords">1. Konsultatsiooni andja, kellaaeg, ruum</TextBlock>
+                    </ListViewItem>
+                    <ListViewItem>
+                        <TextBlock FontSize="20" TextWrapping="WrapWholeWords">1. Konsultatsiooni andja, kellaaeg, ruum</TextBlock>
+                    </ListViewItem>
+                    <ListViewItem>
+                        <TextBlock FontSize="20" TextWrapping="WrapWholeWords">1. Konsultatsiooni andja, kellaaeg, ruum</TextBlock>
+                    </ListViewItem>
+                    <ListViewItem>
+                        <TextBlock FontSize="20" TextWrapping="WrapWholeWords">1. Konsultatsiooni andja, kellaaeg, ruum</TextBlock>
+                    </ListViewItem>
+                    <ListViewItem>
+                        <TextBlock FontSize="20" TextWrapping="WrapWholeWords">1. Konsultatsiooni andja, kellaaeg, ruum</TextBlock>
+                    </ListViewItem>
+                    <ListViewItem>
+                        <TextBlock FontSize="20" TextWrapping="WrapWholeWords">1. Konsultatsiooni andja, kellaaeg, ruum</TextBlock>
+                    </ListViewItem>
+                    <ListViewItem>
+                        <TextBlock FontSize="20" TextWrapping="WrapWholeWords">1. Konsultatsiooni andja, kellaaeg, ruum</TextBlock>
+                    </ListViewItem>
+                    <ListViewItem>
+                        <TextBlock FontSize="20" TextWrapping="WrapWholeWords">1. Konsultatsiooni andja, kellaaeg, ruum</TextBlock>
+                    </ListViewItem>
+                    <ListViewItem>
+                        <TextBlock FontSize="20" TextWrapping="WrapWholeWords">1. Konsultatsiooni andja, kellaaeg, ruum</TextBlock>
+                    </ListViewItem>
+                    <ListViewItem>
+                        <TextBlock FontSize="20" TextWrapping="WrapWholeWords">1. Konsultatsiooni andja, kellaaeg, ruum</TextBlock>
+                    </ListViewItem>
+                    <ListViewItem>
+                        <TextBlock FontSize="20" TextWrapping="WrapWholeWords">1. Konsultatsiooni andja, kellaaeg, ruum</TextBlock>
+                    </ListViewItem>
+                    <ListViewItem>
+                        <TextBlock FontSize="20" TextWrapping="WrapWholeWords">1. Konsultatsiooni andja, kellaaeg, ruum</TextBlock>
+                    </ListViewItem>
+                    <ListViewItem>
+                        <TextBlock FontSize="20" TextWrapping="WrapWholeWords">1. Konsultatsiooni andja, kellaaeg, ruum</TextBlock>
+                    </ListViewItem>
+                    <ListViewItem>
+                        <TextBlock FontSize="20" TextWrapping="WrapWholeWords">1. Konsultatsiooni andja, kellaaeg, ruum</TextBlock>
+                    </ListViewItem>
+                    <ListViewItem>
+                        <TextBlock FontSize="20" TextWrapping="WrapWholeWords">1. Konsultatsiooni andja, kellaaeg, ruum</TextBlock>
+                    </ListViewItem>
+                    <ListViewItem>
+                        <TextBlock FontSize="20" TextWrapping="WrapWholeWords">1. Konsultatsiooni andja, kellaaeg, ruum</TextBlock>
+                    </ListViewItem>
+                </StackPanel>
+            </ScrollViewer>
+        </Grid>
+
+    </Grid>
+</Page>

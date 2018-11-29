@@ -24,18 +24,19 @@
             <RowDefinition Height="*"></RowDefinition>
         </Grid.RowDefinitions>
 
-        <GridView Grid.Row="0" Grid.Column="0" IsItemClickEnabled="True" BorderThickness="1" BorderBrush="Black" HorizontalAlignment="Center" FontSize="30" >
-            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center">ajavahemik1</TextBlock></GridView>
-        <GridView Grid.Row="0" Grid.Column="1" IsItemClickEnabled="True" BorderThickness="1" BorderBrush="Black" HorizontalAlignment="Center" FontSize="30" >
+        <GridView Grid.Row="0" Grid.Column="0" IsItemClickEnabled="True" HorizontalAlignment="Center" FontSize="30" >
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center">ajavahemik1</TextBlock>
+        </GridView>
+        <GridView Grid.Row="0" Grid.Column="1" IsItemClickEnabled="True" HorizontalAlignment="Center" FontSize="30" >
             <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center">ajavahemik2</TextBlock>
         </GridView>
-        <GridView Grid.Row="0" Grid.Column="2" IsItemClickEnabled="True" BorderThickness="1" BorderBrush="Black" HorizontalAlignment="Center" FontSize="30" >
+        <GridView Grid.Row="0" Grid.Column="2" IsItemClickEnabled="True" HorizontalAlignment="Center" FontSize="30" >
             <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center">ajavahemik3</TextBlock>
         </GridView>
-        <GridView Grid.Row="0" Grid.Column="3" IsItemClickEnabled="True" BorderThickness="1" BorderBrush="Black" HorizontalAlignment="Center" FontSize="30" >
+        <GridView Grid.Row="0" Grid.Column="3" IsItemClickEnabled="True" HorizontalAlignment="Center" FontSize="30" >
             <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center">ajavahemik4</TextBlock>
         </GridView>
-        <GridView Grid.Row="0" Grid.Column="4" IsItemClickEnabled="True" BorderThickness="1" BorderBrush="Black" HorizontalAlignment="Center" FontSize="30" >
+        <GridView Grid.Row="0" Grid.Column="4" IsItemClickEnabled="True" HorizontalAlignment="Center" FontSize="30" >
             <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center">ajavahemik5</TextBlock>
         </GridView>
 
@@ -44,6 +45,436 @@
         <TextBlock Grid.Row="1" Grid.Column="2" FontSize="30" HorizontalAlignment="Center">Kolmapäev</TextBlock>
         <TextBlock Grid.Row="1" Grid.Column="3" FontSize="30" HorizontalAlignment="Center">Neljapäev</TextBlock>
         <TextBlock Grid.Row="1" Grid.Column="4" FontSize="30" HorizontalAlignment="Center">Reede</TextBlock>
+
+        <ScrollViewer Grid.Row="2" HorizontalAlignment="Center">
+            <StackPanel>
+                <ListViewItem VerticalAlignment="Top">
+                    <TextBlock TextWrapping="WrapWholeWords">1. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">2. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+            </StackPanel>
+        </ScrollViewer>
+        
+        <ScrollViewer Grid.Row="2" Grid.Column="1" HorizontalAlignment="Center">
+            <StackPanel>
+                <ListViewItem VerticalAlignment="Top">
+                    <TextBlock TextWrapping="WrapWholeWords">1. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">2. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+            </StackPanel>
+        </ScrollViewer>
+        
+        <ScrollViewer Grid.Row="2" Grid.Column="2" HorizontalAlignment="Center">
+            <StackPanel>
+                <ListViewItem VerticalAlignment="Top">
+                    <TextBlock TextWrapping="WrapWholeWords">1. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">2. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+            </StackPanel>
+        </ScrollViewer>
+
+        <ScrollViewer Grid.Row="2" Grid.Column="3" HorizontalAlignment="Center">
+            <StackPanel>
+                <ListViewItem VerticalAlignment="Top">
+                    <TextBlock TextWrapping="WrapWholeWords">1. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">2. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+            </StackPanel>
+        </ScrollViewer>
+
+        <ScrollViewer Grid.Row="2" Grid.Column="4" HorizontalAlignment="Center">
+            <StackPanel>
+                <ListViewItem VerticalAlignment="Top">
+                    <TextBlock TextWrapping="WrapWholeWords">1. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">2. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextWrapping="WrapWholeWords">3. tund, grupp, ruum, kellaaeg</TextBlock>
+                </ListViewItem>
+            </StackPanel>
+        </ScrollViewer>
 
     </Grid>
 
