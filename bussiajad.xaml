@@ -18,7 +18,7 @@
             </StackPanel>
             <StackPanel Name="stack3" RelativePanel.RightOf="stack2" Margin="180,50,0,0">
                 <TextBlock Text="Vali Kuupäev" FontSize="26"></TextBlock>
-                
+
             </StackPanel>
             <StackPanel RelativePanel.RightOf="stack3" Margin="30,50,0,0">
                 <CalendarDatePicker></CalendarDatePicker>
