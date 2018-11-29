@@ -1,7 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
+<<<<<<< HEAD
+<<<<<<< HEAD
+VisualStudioVersion = 15.0.28306.52
+=======
 VisualStudioVersion = 15.0.28307.106
+>>>>>>> cea5ba4503726bd8409336c8ba55203c669feb3f
+=======
+VisualStudioVersion = 15.0.28307.106
+>>>>>>> cea5ba4503726bd8409336c8ba55203c669feb3f
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "infokiosk", "infokiosk.csproj", "{284D8985-4D46-46F8-88D4-736D70525A34}"
 EndProject
@@ -38,6 +46,14 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
+<<<<<<< HEAD
+<<<<<<< HEAD
+		SolutionGuid = {D0CEAA64-D4A4-47FD-9402-325ED9E9B922}
+=======
 		SolutionGuid = {965490C1-D23F-419D-AF2D-134EECB5ED3A}
+>>>>>>> cea5ba4503726bd8409336c8ba55203c669feb3f
+=======
+		SolutionGuid = {965490C1-D23F-419D-AF2D-134EECB5ED3A}
+>>>>>>> cea5ba4503726bd8409336c8ba55203c669feb3f
 	EndGlobalSection
 EndGlobal
