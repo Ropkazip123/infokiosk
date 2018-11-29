@@ -25,6 +25,39 @@ namespace infokiosk
         public Kontaktid()
         {
             this.InitializeComponent();
+            LoadItems();
+        }
+
+        private void LoadItems()
+        {
+            for (int x = 1; x < 10; x++)
+            {
+                for (int y = 1; y < 10; y++)
+                {
+                    ListViewItem item = new ListViewItem();
+                    
+                    if (x == 1)
+                    {
+                        list1.Items.Add(item);
+                        item.Content = "Eesnimi";
+                    }
+                    else if(x == 2)
+                    {
+                        list2.Items.Add(item);
+                        item.Content = "Perenimi";
+                    }
+                    else if (x == 3)
+                    {
+                        list3.Items.Add(item);
+                        item.Content = "Email";
+                    }
+                    else if (x == 4)
+                    {
+                        list4.Items.Add(item);
+                        item.Content = "Tel. number";
+                    }
+                }
+            }
         }
     }
 }

@@ -9,12 +9,45 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <ListView HorizontalAlignment="Center">
-            <ListViewItem Name="item1">Arvuti- ja Teenindusõppeosakond</ListViewItem>
-            <ListViewItem Name="item2">Direktor</ListViewItem>
-            <ListViewItem Name="item3">Haldusosakond</ListViewItem>
-            <ListViewItem Name="item4">Õppeosakond</ListViewItem>
-            <ListViewItem Name="item5">Täiendusõppeosakond</ListViewItem>
-        </ListView>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="40"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <TextBlock Text="Kontaktid" FontSize="50"></TextBlock>
+
+        <ScrollViewer Grid.Row="2">
+        
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+
+                <RelativePanel Grid.Column="0">
+                    <ListView Name="list1" SelectionMode="None">
+                        <ListViewItem FontSize="35">Eesnimi</ListViewItem>
+                    </ListView>
+                </RelativePanel>
+                <RelativePanel Grid.Column="1">
+                    <ListView Name="list2" SelectionMode="None">
+                        <ListViewItem FontSize="35">Perenimi</ListViewItem>
+                    </ListView>
+                </RelativePanel>
+                <RelativePanel Grid.Column="2">
+                    <ListView Name="list3" SelectionMode="None">
+                        <ListViewItem FontSize="35">Email</ListViewItem>
+                    </ListView>
+                </RelativePanel>
+                <RelativePanel Grid.Column="3">
+                    <ListView Name="list4" SelectionMode="None">
+                        <ListViewItem FontSize="35">Telefoni number</ListViewItem>
+                    </ListView>
+                </RelativePanel>
+            </Grid>
+        </ScrollViewer>
     </Grid>
 </Page>

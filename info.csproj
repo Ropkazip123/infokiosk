@@ -104,6 +104,9 @@
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="menüü.xaml.cs">
+      <DependentUpon>menüü.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="tunniplaan.xaml.cs">
       <DependentUpon>tunniplaan.xaml</DependentUpon>
@@ -145,6 +148,10 @@
     <Page Include="MainPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="menüü.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="tunniplaan.xaml">
       <Generator>MSBuild:Compile</Generator>
