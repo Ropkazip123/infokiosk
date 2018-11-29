@@ -9,20 +9,26 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <RelativePanel>
-            <StackPanel Margin="180,50,0,0" Name="stack1">
-                <TextBlock Text="Tänased bussiajad" FontSize="26"></TextBlock>
-            </StackPanel>
-            <StackPanel Name="stack2" RelativePanel.RightOf="stack1" Margin="180,50,0,0">
-                <TextBlock Text="Hommesed bussiajad" FontSize="26"></TextBlock>
-            </StackPanel>
-            <StackPanel Name="stack3" RelativePanel.RightOf="stack2" Margin="180,50,0,0">
-                <TextBlock Text="Vali Kuupäev" FontSize="26"></TextBlock>
-                
-            </StackPanel>
-            <StackPanel RelativePanel.RightOf="stack3" Margin="30,50,0,0">
-                <CalendarDatePicker></CalendarDatePicker>
-            </StackPanel>
-        </RelativePanel>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="6*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <StackPanel Margin="180,50,0,0" Name="stack1">
+            <TextBlock Text="Tänased bussiajad" FontSize="26"></TextBlock>
+        </StackPanel>
+        <StackPanel Name="stack2" Margin="180,50,0,0" Grid.Column="1">
+            <TextBlock Text="Hommesed bussiajad" FontSize="26"></TextBlock>
+        </StackPanel>
+        <StackPanel Name="stack3" Margin="180,50,0,0">
+            <TextBlock Text="Vali Kuupäev" FontSize="26"></TextBlock>
+        </StackPanel>
+        <StackPanel Margin="30,50,0,0">
+            <CalendarDatePicker></CalendarDatePicker>
+        </StackPanel>
     </Grid>
 </Page>
