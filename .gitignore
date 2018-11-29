@@ -1,3 +1,6 @@
 obj/
 bin/
 *.pfx
+.vs/
+*.user
+*.sln

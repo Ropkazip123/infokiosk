@@ -8,7 +8,27 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
+
+
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0" Grid.Column="0" FontSize="30" HorizontalAlignment="Center">Esmaspäev</TextBlock>
+        <TextBlock Grid.Row="0" Grid.Column="1" FontSize="30" HorizontalAlignment="Center">Teisipäev</TextBlock>
+        <TextBlock Grid.Row="0" Grid.Column="2" FontSize="30" HorizontalAlignment="Center">Kolmapäev</TextBlock>
+        <TextBlock Grid.Row="0" Grid.Column="3" FontSize="30" HorizontalAlignment="Center">Neljapäev</TextBlock>
+        <TextBlock Grid.Row="0" Grid.Column="4" FontSize="30" HorizontalAlignment="Center">Reede</TextBlock>
 
     </Grid>
+
 </Page>
