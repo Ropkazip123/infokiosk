@@ -27,6 +27,8 @@
                     <ColumnDefinition></ColumnDefinition>
                 </Grid.ColumnDefinitions>
 
+                <!--LIST GENEREERITAKSE AUTOMAATSELT-->
+                
                 <RelativePanel Grid.Column="0">
                     <ListView Name="list1" SelectionMode="None">
                         <ListViewItem FontSize="35">Eesnimi</ListViewItem>
