@@ -26,5 +26,20 @@ namespace infokiosk
         {
             this.InitializeComponent();
         }
+
+        private void menu_click(object sender, RoutedEventArgs e)
+        {
+            splitview1.IsPaneOpen = !splitview1.IsPaneOpen;
+        }
+
+        private void ListView_ItemClick(object sender, ItemClickEventArgs e)
+        {
+
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
